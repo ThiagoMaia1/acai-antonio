@@ -4,14 +4,22 @@ export type RootStackParamList = {
 };
 
 export type BottomTabParamList = {
-  TabOne: undefined;
-  TabTwo: undefined;
+  // HomeScreen: undefined;
+  Tamanho: undefined;
+  Recheios: undefined;
+  // AdicionarOutro: undefined;
+  // InformarDados: undefined;
+  // TelaPagamento: undefined;
+  // FinalizarPedido: undefined;
+  // AcompanharPedido: undefined;
+  // AlterarPedido: undefined;
 };
 
-export type TabOneParamList = {
-  TabOneScreen: undefined;
+export type SelecionarTamanhoParamList = {
+  Tamanho: undefined;
 };
 
-export type TabTwoParamList = {
-  TabTwoScreen: undefined;
+export type SelecionarRecheiosParamList = {
+  Recheios: undefined;
 };
+

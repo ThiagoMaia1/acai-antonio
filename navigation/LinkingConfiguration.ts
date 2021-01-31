@@ -6,16 +6,9 @@ export default {
     screens: {
       Root: {
         screens: {
-          TabOne: {
-            screens: {
-              TabOneScreen: 'one',
-            },
-          },
-          TabTwo: {
-            screens: {
-              TabTwoScreen: 'two',
-            },
-          },
+          HomeScreen: 'home',
+          SelecionarTamanho: 'tamanho',
+          SelecionarRecheios: 'recheios'
         },
       },
       NotFound: '*',
